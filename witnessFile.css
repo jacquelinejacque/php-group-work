@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin-left: 500px;
+    background-color: cyan;
+}
+h1{
+    color: rgb(78, 40, 184);
+    margin-left: 70px;
+}
+form{
+    width: 400px;
+    height: 450px;
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+}
+button{
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    height: 20px;
+    width: 70px;
+}

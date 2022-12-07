@@ -1,0 +1,15 @@
+body{
+    margin-left: 500px;
+    background-color: cyan;
+}
+button{
+    margin-left: 70px;
+    background-color:black;
+    color: #fff;
+    border-radius: 50px;
+    height: 20px;
+    width: 70px;
+}
+h1{
+    color: rgb(78, 40, 184);
+}

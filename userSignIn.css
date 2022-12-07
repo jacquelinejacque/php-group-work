@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(78, 40, 184);
+}
+img{
+    border-radius: 50%;
+    margin-left: 60px;
+}
+body{
+    margin-left: 500px;
+    background-color: cyan;
+}
+form{
+    width: 350px;
+    height: 400px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
+input {
+    display: block;
+    height: 20px;
+}
+
+button {
+    background-color: rgb(19, 19, 243);
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+p{
+    color: red;
+}

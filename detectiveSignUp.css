@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: cyan;
+}
+img{
+    border-radius: 50%;
+    margin-left: 650px;
+}
+form{
+    width: 400px;
+    height: 460px;
+    background-color: gray;
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: black;
+    color: #fff;
+    border-radius: 50px;
+    height: 20px;
+    width: 70px;
+}

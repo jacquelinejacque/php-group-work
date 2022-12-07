@@ -1,0 +1,68 @@
+body{
+    background: gray;
+}
+img{
+    border-radius: 60px;
+    margin: 2px;
+}
+header{
+    background: cyan;
+}
+logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    /* margin: 70px; */
+    padding: 10px;
+    margin-top: 50px;
+    /* padding-top: 0px; */
+    position: relative;
+}
+nav ul li a{
+    display: block;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 10px 14px;
+}
+nav ul li a:hover{
+    color: white;
+}
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #fff;
+    border-radius: 0px 0px 10px 10px;
+}
+nav ul li:hover ul{
+    display: inline-block;
+
+}
+nav ul li ul li{ 
+    width: 150px;
+    border-radius: 10px;
+}
+nav ul li ul li a{
+    padding: 2px 4px;
+}
+nav ul li ul li a:hover{
+    background-color: gray;
+}
+button{
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: black;
+    outline: none;
+    float: right;
+}

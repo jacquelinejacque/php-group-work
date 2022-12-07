@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User sign in</title>
+    <link rel="stylesheet" href="userSignIn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script defer src="./index.js"></script>
+    
+</head>
+<body>
+    <h1>Sign in as a user</h1>
+    <img src="usericon.png" alt="usericon">
+ 
+    <form action="process.form.php" method="post" id="form">
+        <Label>Username:</Label>
+        <input type="text" name="name" id="username" placeholder="Enter name"><br> <br>
+        <Label>Email:</Label>
+        <input type="email" name="email" id="email" placeholder="Enter email"><br><br>
+        <Label>Password:</Label>
+        <input type="password" name="pass" id="pass" placeholder="Enter password">
+        <div>
+            <a href="#" class="forgot_pass">Forgot password?</a>
+        </div><br><br>
+        <p id="error"></p>
+        <button type="submit">Submit</button><br><br>
+        <div>
+            <span>Already have an account? <a href="userSignUp.html" class="forgot_pass">Sign Up</a> </span>
+        </div>
+    </form>
+
+</body>
+</html>
